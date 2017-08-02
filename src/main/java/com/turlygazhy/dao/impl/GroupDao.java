@@ -1,5 +1,6 @@
 package com.turlygazhy.dao.impl;
 
+import com.sun.org.apache.regexp.internal.RE;
 import com.turlygazhy.entity.Group;
 import com.turlygazhy.reminder.timer_task.EveryNightTask;
 import org.slf4j.Logger;
@@ -53,6 +54,10 @@ public class GroupDao {
         ps.setLong(2, chatId);
         ps.setBoolean(3, false);
         ps.execute();
+        ps = connection.prepareStatement("INSERT INTO group_url VALUES (?,?);");
+        ps.setInt(1, chatId.intValue());
+        ps.setString(2, "url is not added yet");
+        ps.execute();
     }
 
     public void giveAccess(Long chatId) throws SQLException {
@@ -91,5 +96,21 @@ public class GroupDao {
         group.setTitle(rs.getString(2));
         group.setChatId(rs.getLong(3));
         return group;
+    }
+
+    public void setUrlToGroup(int groupId, String url) throws SQLException{
+        PreparedStatement ps = connection.prepareStatement("UPDATE group_url SET url=? where group_id=?");
+        ps.setInt(2, groupId);
+        ps.setString(1, url);
+        ps.execute();
+    }
+
+    public String getGroupUrl(int groupId) throws SQLException{
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM group_url where group_id=?");
+        ps.setInt(1, groupId);
+        ps.execute();
+        ResultSet resultSet = ps.getResultSet();
+        resultSet.next();
+        return resultSet.getString(2);
     }
 }

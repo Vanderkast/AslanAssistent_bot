@@ -217,4 +217,11 @@ public class MemberDao {
         ps.setLong(1, userId);
         ps.execute();
     }
+
+    public int getGroupIdByUserId(long userId) throws SQLException{
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM MEMBER WHERE USER_ID=?");
+        ps.setLong(1, userId);
+        ps.execute();
+        return ps.getResultSet().getInt(8);
+    }
 }

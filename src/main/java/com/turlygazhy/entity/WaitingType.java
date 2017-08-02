@@ -45,5 +45,6 @@ public enum WaitingType {
     NEW_READING_AIM,
     READING_GOAL_WORK,
     SAVE_URL,
+    ADD_URL,
     NAVIKI
 }

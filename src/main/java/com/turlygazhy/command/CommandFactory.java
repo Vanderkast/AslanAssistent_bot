@@ -74,7 +74,10 @@ public class CommandFactory {
                 return new ReadingGoalWorkCommand();
             case CHANGE_URL_GROUP:
                 return new ChangeUrlCommand();
-
+            case SHOW_SHIT_GROUP:
+                return new ShowGroupInfo();
+            case CHANGE_BUTTON_TEXT:
+                return new ChangeButtonTextCommand();
             //case READING_UPDATE_GOAL:
              //   return new ReadingCommand(true);
             default:
