@@ -47,6 +47,7 @@ public class ChangeUrlCommand extends Command {
                         .setChatId(chatId)
                         .setText(messageDao.getMessageText(90))
                         .setReplyMarkup(getKeyboard()));
+                waitingType = WaitingType.ADD_URL;
                 return false;
             }
             case ADD_URL:{
