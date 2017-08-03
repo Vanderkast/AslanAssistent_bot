@@ -23,9 +23,6 @@ public class ChangeGroupCommand extends Command {
         if (update.hasMessage()) {
             chatId = update.getMessage().getChatId();
             messageText = update.getMessage().getText();
-            if(messageText.equals(messageDao.getMessageText(67))){
-                return true;
-            }
         } else {
             chatId = update.getCallbackQuery().getFrom().getId();
             messageText = update.getCallbackQuery().getData();

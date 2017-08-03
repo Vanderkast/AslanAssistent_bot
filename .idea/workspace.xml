@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632eb986-feff-4a4e-8858-bf8d2cfe2d8c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,8 +61,8 @@
       <file leaf-file-name="ChangeGroupCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="-260">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -859,12 +858,12 @@
       <workItem from="1501686977325" duration="1353000" />
       <workItem from="1501744578082" duration="1977000" />
       <workItem from="1501746963246" duration="896000" />
-      <workItem from="1501747886666" duration="1330000" />
+      <workItem from="1501747886666" duration="2000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265937000" />
+    <option name="totallyTimeSpent" value="266607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1081,25 +1080,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>29</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="1034" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>31</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="1035" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>30</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="1036" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>28</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="1037" />
         </line-breakpoint>
@@ -1108,24 +1107,6 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="1038" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="1039" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="1040" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="1041" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
@@ -1596,8 +1577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="-260">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
