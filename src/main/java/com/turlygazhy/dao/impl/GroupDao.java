@@ -26,7 +26,7 @@ public class GroupDao {
     }
 
     public boolean isChatRegistered(Long chatId) throws SQLException {
-        PreparedStatement ps = connection.prepareStatement("select * from groups where chat_id=?");
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM groups WHERE chat_id=?");
         ps.setLong(1, chatId);
         ps.execute();
         ResultSet rs = ps.getResultSet();
@@ -34,14 +34,14 @@ public class GroupDao {
     }
 
     public void checkTitle(Long chatId, String title) throws SQLException {
-        PreparedStatement ps = connection.prepareStatement("select * from groups where chat_id=?");
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM groups WHERE chat_id=?");
         ps.setLong(1, chatId);
         ps.execute();
         ResultSet rs = ps.getResultSet();
         rs.next();
         String titleDB = rs.getString(2);
         if (!titleDB.equals(title)) {
-            PreparedStatement psUpdate = connection.prepareStatement("update groups set title=? where user_id=?");
+            PreparedStatement psUpdate = connection.prepareStatement("UPDATE groups SET title=? WHERE user_id=?");
             psUpdate.setString(1, title);
             psUpdate.setLong(2, chatId);
             psUpdate.execute();
@@ -61,7 +61,7 @@ public class GroupDao {
     }
 
     public void giveAccess(Long chatId) throws SQLException {
-        PreparedStatement ps = connection.prepareStatement("update groups set can_work=? where chat_id=?");
+        PreparedStatement ps = connection.prepareStatement("UPDATE groups SET can_work=? WHERE chat_id=?");
         ps.setBoolean(1, true);
         ps.setLong(2, chatId);
         ps.execute();
@@ -69,7 +69,7 @@ public class GroupDao {
 
     public List<Group> selectAll() throws SQLException {
         List<Group> result = new ArrayList<>();
-        PreparedStatement ps = connection.prepareStatement("select * from groups");
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM groups");
         ps.execute();
         ResultSet rs = ps.getResultSet();
         while (rs.next()) {
@@ -87,7 +87,7 @@ public class GroupDao {
 
     public Group select(Integer groupId) throws SQLException {
         logger.info("select * from groups where id=" + groupId);
-        PreparedStatement ps = connection.prepareStatement("select * from groups where id=?");
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM groups WHERE id=?");
         ps.setInt(1, groupId);
         ps.execute();
         ResultSet rs = ps.getResultSet();
@@ -98,19 +98,26 @@ public class GroupDao {
         return group;
     }
 
-    public void setUrlToGroup(int groupId, String url) throws SQLException{
-        PreparedStatement ps = connection.prepareStatement("UPDATE group_url SET url=? where group_id=?");
+    public void setUrlToGroup(int groupId, String url) throws SQLException {
+        PreparedStatement ps = connection.prepareStatement("UPDATE group_url SET url=? WHERE group_id=?");
         ps.setInt(2, groupId);
         ps.setString(1, url);
         ps.execute();
     }
 
-    public String getGroupUrl(int groupId) throws SQLException{
-        PreparedStatement ps = connection.prepareStatement("SELECT * FROM group_url where group_id=?");
+    public String getGroupUrl(int groupId) throws SQLException {
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM group_url WHERE group_id=?");
         ps.setInt(1, groupId);
         ps.execute();
         ResultSet resultSet = ps.getResultSet();
         resultSet.next();
         return resultSet.getString(2);
+    }
+
+    public void deleteGroup(int groupId) throws SQLException {
+        PreparedStatement ps = connection.prepareStatement("DELETE FROM groups WHERE id=" + groupId);
+        ps.execute();
+        ps = connection.prepareStatement("DELETE FROM group_url WHERE group_id=" + groupId);
+        ps.execute();
     }
 }

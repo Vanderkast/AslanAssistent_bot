@@ -78,6 +78,8 @@ public class CommandFactory {
                 return new ShowGroupInfo();
             case CHANGE_BUTTON_TEXT:
                 return new ChangeButtonTextCommand();
+            case CHANGE_ON_GROUP:
+                return new ChangeGroupCommand();
             //case READING_UPDATE_GOAL:
              //   return new ReadingCommand(true);
             default:

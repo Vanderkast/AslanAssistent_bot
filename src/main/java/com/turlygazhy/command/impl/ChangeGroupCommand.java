@@ -4,7 +4,6 @@ import com.turlygazhy.Bot;
 import com.turlygazhy.command.Command;
 import com.turlygazhy.entity.Const;
 import com.turlygazhy.entity.Group;
-import com.turlygazhy.entity.WaitingType;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.api.objects.replykeyboard.InlineKeyboardMarkup;
@@ -15,56 +14,69 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChangeUrlCommand extends Command {
-    private WaitingType waitingType;
+public class ChangeGroupCommand extends Command {
     private long chatId;
     private String messageText;
-
-    private String url;
 
     @Override
     public boolean execute(Update update, Bot bot) throws SQLException, TelegramApiException {
         if (update.hasMessage()) {
             chatId = update.getMessage().getChatId();
             messageText = update.getMessage().getText();
+            if(messageText != "Работа с группами"){
+                return true;
+            }
         } else {
             chatId = update.getCallbackQuery().getFrom().getId();
             messageText = update.getCallbackQuery().getData();
         }
 
-        if (waitingType == null) {
-            bot.sendMessage(new SendMessage()
-                    .setChatId(chatId)
-                    .setText(messageDao.getMessageText(89)));
-            waitingType = WaitingType.SAVE_URL;
-            return false;
-        }
-        switch (waitingType) {
-            case SAVE_URL: {
-                url = messageText;
-                //buttonDao.updateButtonUrl(15, messageText);
-                bot.sendMessage(new SendMessage()
-                        .setChatId(chatId)
-                        .setText(messageDao.getMessageText(90))
-                        .setReplyMarkup(getKeyboard()));
-                return false;
-            }
-            case ADD_URL:{
-                String[] lep = messageText.split(" ");
-                groupDao.setUrlToGroup(Integer.parseInt(lep[1]), url);
-                bot.sendMessage(new SendMessage()
-                        .setChatId(chatId)
-                        .setText(messageDao.getMessageText(92)));
+
+
+        if (update.hasMessage()) {
+            List<Group> groups = groupDao.selectAll();
+            if (groups.size() == 0) {
                 return true;
             }
+
+            InlineKeyboardMarkup keyboard = new InlineKeyboardMarkup();
+            List<List<InlineKeyboardButton>> rows = new ArrayList<>();
+
+            InlineKeyboardButton button = new InlineKeyboardButton();
+            List<InlineKeyboardButton> row = new ArrayList<>();
+
+            button.setText("Удалить");
+            bot.sendMessage(new SendMessage()
+                    .setChatId(chatId)
+                    .setText(messageDao.getMessageText(93))
+                    .setReplyMarkup(keyboard));
+            for (Group group : groups) {
+                row.clear();
+                rows.clear();
+                button.setCallbackData(String.valueOf(group.getId()));
+                row.add(button);
+                rows.add(row);
+                keyboard.setKeyboard(rows);
+
+                bot.sendMessage(new SendMessage()
+                        .setChatId(chatId)
+                        .setText(group.getTitle() + " " + group.getId())
+                        .setReplyMarkup(keyboard));
+            }
+            return false;
+        } else {
+            bot.sendMessage(new SendMessage()
+                    .setChatId(chatId)
+                    .setText(messageDao.getMessageText(94)));
+            groupDao.deleteGroup(Integer.parseInt(messageText));
+            return true;
         }
-        return false;
     }
 
     private InlineKeyboardMarkup getKeyboard() throws SQLException {
         InlineKeyboardMarkup keyboard = new InlineKeyboardMarkup();
         List<List<InlineKeyboardButton>> rows = new ArrayList<>();
-        List<InlineKeyboardButton> row = new ArrayList<>();
+
 
         List<Group> groups = groupDao.selectAll();
 
@@ -74,12 +86,14 @@ public class ChangeUrlCommand extends Command {
 
         for (Group group : groups) {
             InlineKeyboardButton button = new InlineKeyboardButton();
-            button.setText(group.getTitle());
-            button.setCallbackData("add " + group.getId());
-            row.add(button);
-        }
+            List<InlineKeyboardButton> row = new ArrayList<>();
 
-        rows.add(row);
+            button.setText("Удалить");
+            button.setCallbackData(String.valueOf(group.getId()));
+
+            row.add(button);
+            rows.add(row);
+        }
 
         keyboard.setKeyboard(rows);
         return keyboard;

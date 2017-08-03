@@ -1,5 +1,6 @@
 package com.turlygazhy.dao.impl;
 
+import com.sun.org.apache.regexp.internal.RE;
 import com.turlygazhy.entity.Member;
 import org.telegram.telegrambots.api.objects.Contact;
 
@@ -219,9 +220,11 @@ public class MemberDao {
     }
 
     public int getGroupIdByUserId(long userId) throws SQLException{
-        PreparedStatement ps = connection.prepareStatement("SELECT * FROM MEMBER WHERE USER_ID=?");
+        PreparedStatement ps = connection.prepareStatement("SELECT * FROM MEMBER WHERE USER_ID=? AND has_access=TRUE");
         ps.setLong(1, userId);
         ps.execute();
-        return ps.getResultSet().getInt(8);
+        ResultSet resultSet = ps.getResultSet();
+        resultSet.next();
+        return resultSet.getInt("group_id");
     }
 }

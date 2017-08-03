@@ -39,6 +39,7 @@ public enum CommandType {
     CHANGE_URL_GROUP(31),
     SHOW_SHIT_GROUP(33),
     CHANGE_BUTTON_TEXT(34),
+    CHANGE_ON_GROUP(35),
     ON_HELP(100);
     //READING_UPDATE_GOAL(110);
 
