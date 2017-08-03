@@ -23,7 +23,7 @@ public class ChangeGroupCommand extends Command {
         if (update.hasMessage()) {
             chatId = update.getMessage().getChatId();
             messageText = update.getMessage().getText();
-            if(messageText != "Работа с группами"){
+            if(messageText.equals(messageDao.getMessageText(67))){
                 return true;
             }
         } else {
