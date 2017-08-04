@@ -64,6 +64,7 @@ public class EveryNightTask extends AbstractTask {
                     boolean DayAnalize = dayResult.analyze(savedResultsDao, goalDao, dayResults, DateUtil.getPastDay(), member);
                     if (DayAnalize) {
                         bot.sendMessage(new SendMessage()
+                                .setParseMode("HTML")
                                 .setText(member.getFirstName() + " " + messageDao.getMessageText(79))
                                 .setChatId(groupDao.select(member.getGroupId()).getChatId()));
                     }
@@ -71,7 +72,6 @@ public class EveryNightTask extends AbstractTask {
 
                     savedResultsDao.insert(userId, dayResults);
                     sendResultToGroup.addResult(groupChatId, resultText, bot);//отправляем в группу результаты
-                    //savedResultsDao.insert(userId, results, reading);//сохранение результатов пользователя в архив
                     goalDao.resetResults(dayResults, userId);
 
                     if (DateUtil.isNewWeek()) {//
@@ -82,10 +82,10 @@ public class EveryNightTask extends AbstractTask {
                         savedResultsDao.insert(userId, weekResults);
                         savedResultsDao.insertReading(userId, reading);
 
-                        //weekResult.analyze(member, weekResults, goalDao, readingResult);
-                        boolean WeekAnalize = weekResult.analize(member, weekResults, readingResult);
-                        if (WeekAnalize) {
+                        boolean weekAnalyze = weekResult.analize(member, weekResults, readingResult);
+                        if (weekAnalyze) {
                             bot.sendMessage(new SendMessage()
+                                    .setParseMode("HTML")
                                     .setText(member.getFirstName() + " " + messageDao.getMessageText(80))
                                     .setChatId(groupDao.select(member.getGroupId()).getChatId()));
                         }
@@ -101,14 +101,16 @@ public class EveryNightTask extends AbstractTask {
                         savedResultsDao.insert(userId, monthResults);
                         goalDao.resetResults(monthResults, userId);
 
-                        boolean MonthAnalize = monthResult.analize(member, monthResults);
-                        if (MonthAnalize) {
+                        boolean monthAnalyze = monthResult.analize(member, monthResults);
+                        if (monthAnalyze) {
                             bot.sendMessage(new SendMessage()
+                                    .setParseMode("HTML")
                                     .setText(member.getFirstName() + " " + messageDao.getMessageText(81))
                                     .setChatId(groupDao.select(member.getGroupId()).getChatId()));
 
                             if (savedResultsDao.getFallStatus(member, DateUtil.getFormatted(DateUtil.getLastMonthFirstDay()), "month result")) {
                                 bot.sendMessage(new SendMessage()
+                                        .setParseMode("HTML")
                                         .setText(member.getFirstName() + " " + messageDao.getMessageText(84))
                                         .setChatId(groupDao.select(member.getGroupId()).getChatId()));
                                 memberDao.deleteMember(member);
@@ -121,14 +123,14 @@ public class EveryNightTask extends AbstractTask {
                             savedResultsDao.clearHistory(member.getUserId(), "month");
                         }
 
-                        savedResultsDao.clearHistory(member.getUserId(), "week");
+                        savedResultsDao.clearHistory(member.getUserId(), "month");
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
                     logger.info("sql exception was cached in EveryNightTask.java");
-                } catch (TelegramApiException e){
+                } catch (TelegramApiException e) {
                     e.printStackTrace();
-                   logger.info("TelegramApiException was catched");
+                    logger.info("TelegramApiException was catched");
                 }
             }
             /*if (DateUtil.isNewWeek()) {//

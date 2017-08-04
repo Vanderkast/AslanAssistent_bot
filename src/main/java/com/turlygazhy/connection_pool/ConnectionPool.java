@@ -21,7 +21,7 @@ public class ConnectionPool {
     //data for settings of connection
     private static final int CONNECTION_NUMBER = 10;
 //    private static final String JDBC_URL = "jdbc:h2:~/personal_assistant25";//todo keep in properties
-    private static final String JDBC_URL = "jdbc:h2:~/test10";//todo keep in properties
+    private static final String JDBC_URL = "jdbc:h2:~/test11";//todo keep in properties
     private static final String DB_LOGIN = "dmn";
     private static final String DB_PASSWORD = "Vanderkast";
 

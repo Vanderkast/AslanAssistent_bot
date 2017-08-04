@@ -71,7 +71,7 @@ public class DateUtil {
 
     public static Date getNextNight() {
         Date date = new Date();
-        date.setDate(date.getDate() + 1);
+        date.setDate(date.getDate()+ 1);//
         date.setHours(0);
         date.setMinutes(0);
         date.setSeconds(1);
@@ -86,7 +86,7 @@ public class DateUtil {
     public static Date getHour(int hour) {
         Date date = new Date();
         if (date.getHours() >= hour) {
-            date.setDate(date.getDate() + 1);
+            date.setDate(date.getDate()+1);//
         }
         date.setHours(hour);
         date.setMinutes(0);

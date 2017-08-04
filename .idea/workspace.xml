@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632eb986-feff-4a4e-8858-bf8d2cfe2d8c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Приложение.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/turlygazhy/command/impl/ShowAllGoalsCommand.class" afterPath="$PROJECT_DIR$/target/classes/com/turlygazhy/command/impl/ShowAllGoalsCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/turlygazhy/connection_pool/ConnectionPool.class" afterPath="$PROJECT_DIR$/target/classes/com/turlygazhy/connection_pool/ConnectionPool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/turlygazhy/entity/SendResultToGroup.class" afterPath="$PROJECT_DIR$/target/classes/com/turlygazhy/entity/SendResultToGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/turlygazhy/reminder/Reminder.class" afterPath="$PROJECT_DIR$/target/classes/com/turlygazhy/reminder/Reminder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/turlygazhy/reminder/timer_task/EveryNightTask.class" afterPath="$PROJECT_DIR$/target/classes/com/turlygazhy/reminder/timer_task/EveryNightTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/turlygazhy/tool/DateUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/turlygazhy/tool/DateUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/connection_pool/ConnectionPool.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/connection_pool/ConnectionPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/Reminder.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/Reminder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,89 +41,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemberDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java">
+      <file leaf-file-name="SavedResultsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/SavedResultsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+            <state relative-caret-position="6500">
+              <caret line="343" column="0" lean-forward="false" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
               <folding>
-                <marker date="1501687717907" expanded="true" signature="882:957" ph="UPDATE membe... " />
-                <marker date="1501687717907" expanded="true" signature="1451:1569" ph="INSERT INTO member... " />
-                <marker date="1501687717907" expanded="true" signature="2063:2099" ph="SELECT * FRO... MEMBER" />
-                <marker date="1501687717907" expanded="true" signature="2504:2540" ph="select * fro... member" />
-                <marker date="1501687717907" expanded="true" signature="3082:3125" ph="update membe... " />
-                <marker date="1501687717907" expanded="true" signature="3370:3414" ph="update membe... " />
-                <marker date="1501687717907" expanded="true" signature="4364:4384" ph="select * fro... member" />
-                <marker date="1501687717907" expanded="true" signature="5210:5246" ph="select * fro... member" />
-                <marker date="1501687717907" expanded="true" signature="5517:5560" ph="UPDATE membe... " />
-                <marker date="1501687717907" expanded="true" signature="5972:6027" ph="INSERT INTO member... " />
-                <marker date="1501687717907" expanded="true" signature="6438:6474" ph="select * fro... member" />
-                <marker date="1501687717907" expanded="true" signature="6814:6872" ph="UPDATE membe... " />
-                <marker date="1501687717907" expanded="true" signature="7140:7195" ph="INSERT INTO member... " />
-                <marker date="1501687717907" expanded="true" signature="7693:7729" ph="select * fro... MEMBER" />
-                <marker date="1501687717907" expanded="true" signature="8010:8044" ph="DELETE FROM " />
-                <marker date="1501687717907" expanded="true" signature="8242:8276" ph="DELETE FROM " />
-                <marker date="1501687717907" expanded="true" signature="8468:8504" ph="SELECT * FRO... MEMBER" />
-                <marker date="1501687717907" expanded="true" signature="8468:8524" ph="SELECT * FRO... MEMBER" />
+                <marker date="1499814440000" expanded="true" signature="1013:1077" ph="SELECT * FRO... SAVED_RESULTS" />
+                <marker date="1499814440000" expanded="true" signature="3743:3799" ph="INSERT INTO SAVED_RESULTS... " />
+                <marker date="1499814440000" expanded="true" signature="4680:4736" ph="INSERT INTO SAVED_RESULTS... " />
+                <marker date="1499814440000" expanded="true" signature="5755:5811" ph="INSERT INTO SAVED_RESULTS... " />
+                <marker date="1499814440000" expanded="true" signature="6446:6509" ph="SELECT * FRO... SAVED_RESULTS" />
+                <marker date="1499814440000" expanded="true" signature="10788:10831" ph="SELECT * FRO... SAVED_RESULTS" />
+                <marker date="1499814440000" expanded="true" signature="11906:11955" ph="SELECT * FRO... SAVED_RESULTS" />
+                <marker date="1499814440000" expanded="true" signature="13654:13696" ph="INSERT INTO FALL_MEMBER... " />
+                <marker date="1499814440000" expanded="true" signature="14027:14092" ph="SELECT * FRO... FALL_MEMBER" />
+                <marker date="1499814440000" expanded="true" signature="14498:14552" ph="SELECT * FRO... FALL_MEMBER" />
+                <marker date="1499814440000" expanded="true" signature="14988:15011" ph="DELETE FROM " />
+                <marker date="1499814440000" expanded="true" signature="15181:15233" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeGroupCommand.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java">
+      <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowGroupInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowGroupInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminMenuCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="1320">
+              <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/GroupDao.java">
+      <file leaf-file-name="EveryNightTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2080">
-              <caret line="117" column="85" lean-forward="false" selection-start-line="117" selection-start-column="85" selection-end-line="117" selection-end-column="85" />
+            <state relative-caret-position="1620">
+              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowAllGoalsCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="113" column="75" lean-forward="false" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoalDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
               <folding>
-                <marker date="1501745303539" expanded="true" signature="813:849" ph="select * fro... groups" />
-                <marker date="1501745303539" expanded="true" signature="1117:1153" ph="select * fro... groups" />
-                <marker date="1501745303539" expanded="true" signature="1421:1462" ph="update group... " />
-                <marker date="1501745303539" expanded="true" signature="1730:1771" ph="INSERT INTO groups... " />
-                <marker date="1501745303539" expanded="true" signature="1935:1967" ph="INSERT INTO group_url... " />
-                <marker date="1501745303539" expanded="true" signature="1935:1969" ph="INSERT INTO grou... " />
-                <marker date="1501745303539" expanded="true" signature="2215:2259" ph="update group... " />
-                <marker date="1501745303539" expanded="true" signature="2520:2540" ph="select * fro... groups" />
-                <marker date="1501745303539" expanded="true" signature="3175:3206" ph="select * fro... groups" />
-                <marker date="1501745303539" expanded="true" signature="3606:3649" ph="UPDATE group... " />
-                <marker date="1501745303539" expanded="true" signature="3868:3908" ph="SELECT * FRO... group_url" />
-                <marker date="1501745303539" expanded="true" signature="4209:4237" ph="DELETE FROM " />
-                <marker date="1501745303539" expanded="true" signature="4315:4352" ph="DELETE FROM " />
+                <marker date="1499814440000" expanded="true" signature="897:953" ph="INSERT INTO goal... " />
+                <marker date="1499814440000" expanded="true" signature="1656:1697" ph="SELECT * FRO... USER_RESULT" />
+                <marker date="1499814440000" expanded="true" signature="3514:3562" ph="INSERT INTO USER_RESULT... " />
+                <marker date="1499814440000" expanded="true" signature="4044:4062" ph="SELECT * FRO... GOAL" />
+                <marker date="1499814440000" expanded="true" signature="4642:4671" ph="SELECT * FRO... GOAL" />
+                <marker date="1499814440000" expanded="true" signature="5360:5415" ph="SELECT * FRO... USER_RESULT" />
+                <marker date="1499814440000" expanded="true" signature="5819:5864" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="6112:6148" ph="SELECT * FRO... USER_RESULT" />
+                <marker date="1499814440000" expanded="true" signature="6596:6645" ph="SELECT * FRO... USER_RESULT_READING" />
+                <marker date="1499814440000" expanded="true" signature="7341:7411" ph="INSERT INTO USER_RESULT_READING... " />
+                <marker date="1499814440000" expanded="true" signature="7994:8052" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="8381:8439" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="8723:8772" ph="SELECT * FRO... USER_RESULT_READING" />
+                <marker date="1499814440000" expanded="true" signature="9052:9121" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="9423:9506" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="10217:10248" ph="SELECT * FRO... GOAL" />
+                <marker date="1499814440000" expanded="true" signature="10530:10615" ph="UPDATE GOAL " />
+                <marker date="1499814440000" expanded="true" signature="11022:11058" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="11311:11375" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="11625:11675" ph="UPDATE USER_... " />
+                <marker date="1499814440000" expanded="true" signature="11903:11934" ph="INSERT INTO BOOKS... " />
+                <marker date="1499814440000" expanded="true" signature="12152:12179" ph="DELETE FROM " />
+                <marker date="1499814440000" expanded="true" signature="12278:12317" ph="DELETE FROM " />
+                <marker date="1499814440000" expanded="true" signature="12416:12457" ph="DELETE FROM " />
+                <marker date="1499814440000" expanded="true" signature="12651:12684" ph="SELECT * FRO... GOAL" />
+                <marker date="1499814440000" expanded="true" signature="13032:13068" ph="UPDATE USER_... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DayResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/DayResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeekResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/WeekResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="652">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,19 +187,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/ActionHistoryDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/GoalMenuCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AddGoalCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/ThesisDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowThesisCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/SendResultToGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/Reminder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/Chart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ReadingCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShareAchievmentsCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/WorkWithGroupCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Poligon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/FallMemberDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/GroupRulesChangeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MessageDao.java" />
@@ -180,10 +211,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ReadingGoalWorkCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowInfoCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/Conversation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/ButtonDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/connection_pool/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdmUserWorkCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/KeyboardMarkUpDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java" />
@@ -197,6 +225,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/CommandFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeUrlCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Poligon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/connection_pool/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/Reminder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/SendResultToGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java" />
       </list>
     </option>
   </component>
@@ -266,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -327,6 +363,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="turlygazhy" type="462c0819:PsiDirectoryNode" />
+              <item name="connection_pool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aslanassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aslanassistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="turlygazhy" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,14 +391,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="turlygazhy" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="reminder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aslanassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aslanassistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="turlygazhy" type="462c0819:PsiDirectoryNode" />
+              <item name="reminder" type="462c0819:PsiDirectoryNode" />
+              <item name="timer_task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aslanassistant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aslanassistant" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="turlygazhy" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -858,12 +921,13 @@
       <workItem from="1501686977325" duration="1353000" />
       <workItem from="1501744578082" duration="1977000" />
       <workItem from="1501746963246" duration="896000" />
-      <workItem from="1501747886666" duration="2000000" />
+      <workItem from="1501747886666" duration="4253000" />
+      <workItem from="1501827690599" duration="7200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266607000" />
+    <option name="totallyTimeSpent" value="276060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -876,6 +940,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32142857" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -891,7 +956,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31876606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21658097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21658097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -899,7 +964,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40332907" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40332907" sideWeight="0.49485862" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -946,96 +1011,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="947" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>108</line>
-          <properties />
-          <option name="timeStamp" value="948" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="949" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="950" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>111</line>
-          <properties />
-          <option name="timeStamp" value="951" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>113</line>
-          <properties />
-          <option name="timeStamp" value="952" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>115</line>
-          <properties />
-          <option name="timeStamp" value="953" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>116</line>
-          <properties />
-          <option name="timeStamp" value="954" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="955" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="956" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
-          <line>223</line>
-          <properties />
-          <option name="timeStamp" value="959" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
-          <line>227</line>
-          <properties />
-          <option name="timeStamp" value="960" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
-          <line>228</line>
-          <properties />
-          <option name="timeStamp" value="961" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
-          <line>222</line>
-          <properties />
-          <option name="timeStamp" value="962" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
-          <line>224</line>
-          <properties />
-          <option name="timeStamp" value="963" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowGroupInfo.java</url>
           <line>24</line>
@@ -1108,19 +1083,291 @@
           <properties />
           <option name="timeStamp" value="1038" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>312</line>
+          <properties />
+          <option name="timeStamp" value="1116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>313</line>
+          <properties />
+          <option name="timeStamp" value="1117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>314</line>
+          <properties />
+          <option name="timeStamp" value="1118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>315</line>
+          <properties />
+          <option name="timeStamp" value="1119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>316</line>
+          <properties />
+          <option name="timeStamp" value="1120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>317</line>
+          <properties />
+          <option name="timeStamp" value="1121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>151</line>
+          <properties />
+          <option name="timeStamp" value="1158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="1159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="1160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="1161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="1162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="1163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="1164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="1165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="1166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="1167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="1168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="1170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="1171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="1172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="1173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="1174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>166</line>
+          <properties />
+          <option name="timeStamp" value="1175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="1176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>174</line>
+          <properties />
+          <option name="timeStamp" value="1177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>175</line>
+          <properties />
+          <option name="timeStamp" value="1178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>176</line>
+          <properties />
+          <option name="timeStamp" value="1180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="1181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="1182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="1183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>198</line>
+          <properties />
+          <option name="timeStamp" value="1186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="1187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="1188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="1190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="1191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="1192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="1193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="1194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="1195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>210</line>
+          <properties />
+          <option name="timeStamp" value="1196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="1199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="1200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="1201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="1202" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java</url>
-          <line>221</line>
-          <properties class="com.turlygazhy.dao.impl.MemberDao" method="getGroupIdByUserId">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java</url>
+          <line>311</line>
+          <properties class="com.turlygazhy.dao.GoalDao" method="resetResults">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="964" />
+          <option name="timeStamp" value="1115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java</url>
+          <line>196</line>
+          <properties class="com.turlygazhy.command.impl.ShowAllGoalsCommand" method="InputGoal">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1185" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1042" />
+      <option name="time" value="1208" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1137,27 +1384,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/Week.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MessageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="105" column="21" lean-forward="false" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1170,13 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/AbstractTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1222,13 +1441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGoalCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/GiveAccessToGroupCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1254,13 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="67" column="66" lean-forward="false" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/DayResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1300,45 +1505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="144" column="38" lean-forward="false" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EndDayTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/SavedResultsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="343" column="0" lean-forward="false" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/Reminder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1349,26 +1519,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/WeekResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-183">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/connection_pool/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1442,9 +1597,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/ButtonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <marker date="1501659143608" expanded="true" signature="766:806" ph="SELECT * FRO... BUTTON" />
+            <marker date="1501659143608" expanded="true" signature="1744:1778" ph="SELECT text BUTTON" />
+            <marker date="1501659143608" expanded="true" signature="2303:2338" ph="update butto... " />
+            <marker date="1501659143608" expanded="true" signature="2573:2607" ph="update butto... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeUrlCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowGroupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
+          <folding>
+            <marker date="1501687717907" expanded="true" signature="882:957" ph="UPDATE membe... " />
+            <marker date="1501687717907" expanded="true" signature="1451:1569" ph="INSERT INTO member... " />
+            <marker date="1501687717907" expanded="true" signature="2063:2099" ph="SELECT * FRO... MEMBER" />
+            <marker date="1501687717907" expanded="true" signature="2504:2540" ph="select * fro... member" />
+            <marker date="1501687717907" expanded="true" signature="3082:3125" ph="update membe... " />
+            <marker date="1501687717907" expanded="true" signature="3370:3414" ph="update membe... " />
+            <marker date="1501687717907" expanded="true" signature="4364:4384" ph="select * fro... member" />
+            <marker date="1501687717907" expanded="true" signature="5210:5246" ph="select * fro... member" />
+            <marker date="1501687717907" expanded="true" signature="5517:5560" ph="UPDATE membe... " />
+            <marker date="1501687717907" expanded="true" signature="5972:6027" ph="INSERT INTO member... " />
+            <marker date="1501687717907" expanded="true" signature="6438:6474" ph="select * fro... member" />
+            <marker date="1501687717907" expanded="true" signature="6814:6872" ph="UPDATE membe... " />
+            <marker date="1501687717907" expanded="true" signature="7140:7195" ph="INSERT INTO member... " />
+            <marker date="1501687717907" expanded="true" signature="7693:7729" ph="select * fro... MEMBER" />
+            <marker date="1501687717907" expanded="true" signature="8010:8044" ph="DELETE FROM " />
+            <marker date="1501687717907" expanded="true" signature="8242:8276" ph="DELETE FROM " />
+            <marker date="1501687717907" expanded="true" signature="8468:8504" ph="SELECT * FRO... MEMBER" />
+            <marker date="1501687717907" expanded="true" signature="8468:8524" ph="SELECT * FRO... MEMBER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/connection_pool/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Poligon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/GroupDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2080">
+        <state relative-caret-position="493">
           <caret line="117" column="85" lean-forward="false" selection-start-line="117" selection-start-column="85" selection-end-line="117" selection-end-column="85" />
           <folding>
             <marker date="1501745303539" expanded="true" signature="813:849" ph="select * fro... groups" />
@@ -1464,26 +1721,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/CommandFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/AbstractTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="81" column="48" lean-forward="false" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+        <state relative-caret-position="280">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/AdminMenuCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/Reminder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/PushUpTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGoalCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1300">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/SavedResultsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6500">
+          <caret line="343" column="0" lean-forward="false" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
+          <folding>
+            <marker date="1499814440000" expanded="true" signature="1013:1077" ph="SELECT * FRO... SAVED_RESULTS" />
+            <marker date="1499814440000" expanded="true" signature="3743:3799" ph="INSERT INTO SAVED_RESULTS... " />
+            <marker date="1499814440000" expanded="true" signature="4680:4736" ph="INSERT INTO SAVED_RESULTS... " />
+            <marker date="1499814440000" expanded="true" signature="5755:5811" ph="INSERT INTO SAVED_RESULTS... " />
+            <marker date="1499814440000" expanded="true" signature="6446:6509" ph="SELECT * FRO... SAVED_RESULTS" />
+            <marker date="1499814440000" expanded="true" signature="10788:10831" ph="SELECT * FRO... SAVED_RESULTS" />
+            <marker date="1499814440000" expanded="true" signature="11906:11955" ph="SELECT * FRO... SAVED_RESULTS" />
+            <marker date="1499814440000" expanded="true" signature="13654:13696" ph="INSERT INTO FALL_MEMBER... " />
+            <marker date="1499814440000" expanded="true" signature="14027:14092" ph="SELECT * FRO... FALL_MEMBER" />
+            <marker date="1499814440000" expanded="true" signature="14498:14552" ph="SELECT * FRO... FALL_MEMBER" />
+            <marker date="1499814440000" expanded="true" signature="14988:15011" ph="DELETE FROM " />
+            <marker date="1499814440000" expanded="true" signature="15181:15233" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/tool/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/SendResultToGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/GoalDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3040">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
           <folding>
             <marker date="1499814440000" expanded="true" signature="897:953" ph="INSERT INTO goal... " />
             <marker date="1499814440000" expanded="true" signature="1656:1697" ph="SELECT * FRO... USER_RESULT" />
@@ -1515,73 +1825,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowGroupInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/DayResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="453">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/ButtonDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/entity/WeekResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <marker date="1501659143608" expanded="true" signature="766:806" ph="SELECT * FRO... BUTTON" />
-            <marker date="1501659143608" expanded="true" signature="1744:1778" ph="SELECT text BUTTON" />
-            <marker date="1501659143608" expanded="true" signature="2303:2338" ph="update butto... " />
-            <marker date="1501659143608" expanded="true" signature="2573:2607" ph="update butto... " />
-          </folding>
+        <state relative-caret-position="652">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeUrlCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ShowAllGoalsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="196">
+          <caret line="113" column="75" lean-forward="false" selection-start-line="113" selection-start-column="74" selection-end-line="113" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/dao/impl/MemberDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/reminder/timer_task/EveryNightTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="227" column="0" lean-forward="false" selection-start-line="227" selection-start-column="0" selection-end-line="227" selection-end-column="0" />
-          <folding>
-            <marker date="1501687717907" expanded="true" signature="882:957" ph="UPDATE membe... " />
-            <marker date="1501687717907" expanded="true" signature="1451:1569" ph="INSERT INTO member... " />
-            <marker date="1501687717907" expanded="true" signature="2063:2099" ph="SELECT * FRO... MEMBER" />
-            <marker date="1501687717907" expanded="true" signature="2504:2540" ph="select * fro... member" />
-            <marker date="1501687717907" expanded="true" signature="3082:3125" ph="update membe... " />
-            <marker date="1501687717907" expanded="true" signature="3370:3414" ph="update membe... " />
-            <marker date="1501687717907" expanded="true" signature="4364:4384" ph="select * fro... member" />
-            <marker date="1501687717907" expanded="true" signature="5210:5246" ph="select * fro... member" />
-            <marker date="1501687717907" expanded="true" signature="5517:5560" ph="UPDATE membe... " />
-            <marker date="1501687717907" expanded="true" signature="5972:6027" ph="INSERT INTO member... " />
-            <marker date="1501687717907" expanded="true" signature="6438:6474" ph="select * fro... member" />
-            <marker date="1501687717907" expanded="true" signature="6814:6872" ph="UPDATE membe... " />
-            <marker date="1501687717907" expanded="true" signature="7140:7195" ph="INSERT INTO member... " />
-            <marker date="1501687717907" expanded="true" signature="7693:7729" ph="select * fro... MEMBER" />
-            <marker date="1501687717907" expanded="true" signature="8010:8044" ph="DELETE FROM " />
-            <marker date="1501687717907" expanded="true" signature="8242:8276" ph="DELETE FROM " />
-            <marker date="1501687717907" expanded="true" signature="8468:8504" ph="SELECT * FRO... MEMBER" />
-            <marker date="1501687717907" expanded="true" signature="8468:8524" ph="SELECT * FRO... MEMBER" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/turlygazhy/command/impl/ChangeGroupCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1620">
+          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

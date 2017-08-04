@@ -159,7 +159,7 @@ public class ShowAllGoalsCommand extends Command {
                 actionHistoryDao.addAction(userId, messageText);
                 break;
             }
-            case "отмена":{
+            case "Отмена":{
                 String lastAction = actionHistoryDao.getLastAction(userId);
                 if(lastAction.equals("Выполнено")){
                     increment = -1;

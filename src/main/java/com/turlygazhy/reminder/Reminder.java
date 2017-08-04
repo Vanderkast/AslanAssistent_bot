@@ -23,12 +23,12 @@ public class Reminder {
         this.bot = bot;
         setNextNightTask();//самый важный поток, далее напоминалки
 
-        setPushUpTask(8);
-        setPushUpTask(11);
-        setEndDayTask(20);
-        setEndDayTask(21);
-        setEndDayTask(22);
-        setEndDayTask(23);
+//        setPushUpTask(8);
+//        setPushUpTask(11);
+//        setEndDayTask(20);
+//        setEndDayTask(21);
+ //       setEndDayTask(22);
+ //       setEndDayTask(23);
     }
 
     /**
